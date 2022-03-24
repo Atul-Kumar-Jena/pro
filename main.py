@@ -356,12 +356,13 @@ def about_us():
 	field_1 = fontcolor.green("Team Member")
 	field_2 = fontcolor.green("Designation")
 	field_3 = fontcolor.green("Standard")
-	z.field_names = [field_1,field_2,field_3]
+	field_4 = fontcolor.green("Roll numbers")
+	z.field_names = [field_1,field_2,field_3,field_4]
 	
-	z.add_row(['Atul Kumar Jena', 'Member','XII'])
-	z.add_row(['Aditya Kumar Behera', 'Member','XII'])
-	z.add_row(['Ashish Sahoo', 'Member','XII'])
-	z.add_row(['Bishal Rout', 'Member','XII'])
+	z.add_row(['Atul Kumar Jena', 'Team Leader','XII','12641966'])
+	z.add_row(['Aditya Kumar Behera', 'Idle Member','XII', ''])
+	z.add_row(['Ashish Sahoo', 'Idle Member','XII', ''])
+	z.add_row(['Bishal Rout', 'Idle Member','XII',''])
 
 	print(z)
 	continue_msg()
